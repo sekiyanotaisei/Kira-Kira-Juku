@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 
 <head>
     <title>入学説明会のお申し込み開始 | Kira-Kira Juku</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport"           content="width=device-width, initial-scale=1.0">
     <meta name="description"        content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。"/>
@@ -17,46 +17,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <!-- ヘッダー -->
   <header>
     <div class="header">
-      <a href="/"><h1>Kira-Kira Juku</h1></a>
-      <nav class="header__gnav">
-        <ul class="header__gnav--list">
+      <div class="header__inner">
+        <a href="/"><h1>Kira-Kira Juku</h1></a>
+        <nav class="header__gnav">
+          <ul class="header__gnav--list">
             <li><a href="#section--reason">選ばれる3つの理由</a></li>
             <li><a href="#section--course">コース・目的</a></li>
             <li><a href="#section--cost">費用</a></li>
             <li><a href="/entry" class="header__gnav--entry-button" >入学説明会に申し込む</a></li>
-        </ul>
-      </nav>
-
-      <div class="hamburger-menu">
-        <input type="checkbox" id="menu-btn-check">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label>
-        <div class="menu-content">
-          <ul>
-            <li><a  href="#section--reason">→　選ばれる3つの理由</a></li>
-            <li><a href="#section--course">→　コース・目的</a></li>
-            <li><a href="#section--cost">→　費用</a></li>
-            <a href="/entry"><button class="drawer-button">　入学説明会に申し込む</button></a>
           </ul>
-        </div>
+          <div class="header-area">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <ul class="slide-menu">
+            <li><a href="#section--reason">→ 選ばれる3つの理由</a></li>
+            <li><a href="#section--course">→ コース・目的</a></li>
+            <li><a href="#section--cost">→ 費用</a></li>
+            <li><a href="/entry">　入学説明会に申し込む</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
 
   <article>
     <div class="article__mainvisual">
-      <img class="article__mainvisual--pc" src="images/mainvisual-pc.jpg" alt="授業を受ける女子生徒">
-      <img class="article__mainvisual--sp" src="images/mainvisual-sp.jpg" alt="授業を受ける女子生徒">
+      <img class="article__mainvisual--pc" src="/images/mainVisual_pc.jpg" alt="">
+      <img class="article__mainvisual--sp" src="/images/mainVIsual_sp.jpg" alt="">
+
+      <img class="frame-left" src="/images/frame_left.png" alt="">
+      <img class="frame-right" src="/images/frame_right.png" alt="">
+      <p class="frame-text1">難関大学の合格実績</p>
+      <p class="frame-text2">No.<span>1</span></p>
+      <p class="frame-text3">現役高校生・高卒生</p>
+      <p class="frame-text4">入学説明会の<br>お申し込み開始</p>
     </div>
 
     <!-- メインイメージ上のボタン -->
     <div class="text-center article__mainvisual--buttons">
-      <a href="/inquiry"><button class="article__mainvisual--left-button">入学のお問い合わせ</button></a>
-      <a href="/freetrial"><button class="article__mainvisual--center-button">無料体験に申し込む</button></a>
-      <a href="/request"> <button class="article__mainvisual--right-button">資料請求する</button></a>
+      <a href="/inquiry" class="article__mainvisual--left-button">入学のお問い合わせ</a>
+      <a href="/freetrial" class="article__mainvisual--center-button">無料体験に申し込む</a>
+      <a href="/request" class="article__mainvisual--right-button">資料請求する</a>
     </div>
 
     <!-- 選ばれる３つの理由 -->
@@ -66,7 +74,9 @@
     <!-- Point1 -->
     <div class="article__reason">
       <div class="article__reason--flex">
-        <img src="images/pht_reason01.png" class="article__reason--image" alt="指導を受ける女子生徒と女性講師">
+        <div class="article__reason--image-parent">
+          <img src="/images/pht_reason01.jpg" class="article__reason--image" alt="">
+        </div>
         <div class="article__reason--text">
           <p class="article__reason--text-point">Point <span class="font-pink42">1</span></p>
           <p class="article__reason--text-title">実績のある講師陣だから安心</p>
@@ -78,7 +88,9 @@
     <!-- Point2 -->
     <div class="article__reason">
       <div class="article__reason--flex article__reason--flex-2nd">
-        <img src="images/pht_reason02.png" class="article__reason--image" alt="pcで作業を行う男性">
+        <div class="article__reason--image-parent">
+          <img src="/images/pht_reason02.jpg" class="article__reason--image" alt="">
+        </div>
         <div class="article__reason--text">
           <p class="article__reason--text-point">Point <span class="font-pink42">2</span></p>
           <p class="article__reason--text-title">オンラインにも対応だから、早送り巻き戻し視聴できる。</p>
@@ -90,7 +102,9 @@
     <!-- Point3 -->
     <div class="article__reason">
       <div class="article__reason--flex">
-        <img src="images/pht_reason03.png" class="article__reason--image" alt="女子生徒と男性講師">
+        <div class="article__reason--image-parent">
+          <img src="/images/pht_reason03.jpg" class="article__reason--image" alt="">
+        </div>
         <div class="article__reason--text">
           <p class="article__reason--text-point">Point <span class="font-pink42">3</span></p>
           <p class="article__reason--text-title">徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</p>
@@ -103,7 +117,7 @@
     <div class="cta-button">
       <p class="cta-button__p">入学ご検討の方は、まずは入学説明会にお越しください</p>
       <div class="text-center">
-        <a href="/entry"><button class="cta-button__button">　入学説明会に申し込む</button></a>
+        <a href="/entry" class="cta-button__button">　入学説明会に申し込む</a>
       </div>
     </div>
 
@@ -118,30 +132,38 @@
       <div class="tab-content text-center" id="grade-content">
         <div class="image-flex">
           <div class="images-group">
-            <img class="select-image" src="images/select-grade-img1.png" alt="外を歩く男子高生">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_grade_img01.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 高校生
+              <img src="/images/arrow_right.png" alt=""> 高校生
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-grade-img2.png" alt="学習に励む女子高生">
+            <div class="image-container">
+              <img class="select-image" src="images/select_grade_img02.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 高校3年生
+              <img src="/images/arrow_right.png" alt=""> 高校3年生
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-grade-img3.png" alt="勉強を教えあう2人の高校生">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_grade_img03.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 高校2年生
+              <img src="/images/arrow_right.png" alt=""> 高校2年生
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-grade-img4.png" alt="笑顔でこちらを見るの女子高生">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_grade_img04.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 高校1年生
+              <img src="/images/arrow_right.png" alt=""> 高校1年生
             </div>
           </div>
         </div>
@@ -150,30 +172,38 @@
       <div class="tab-content" id="purpose-content">
         <div class="image-flex">
           <div class="images-group">
-            <img class="select-image" src="images/select-purpose-img1.png" alt="東京大学の門">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_purpose_img01.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 難関大学・医学部合格を目指す
+              <img src="/images/arrow_right.png" alt=""> 難関大学・医学部合格を目指す
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-purpose-img2.png" alt="門私立大学の銅像">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_purpose_img02.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 名門私立大学合格を目指す
+              <img src="/images/arrow_right.png" alt=""> 名門私立大学合格を目指す
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-purpose-img3.png" alt="国立大学の校舎">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_purpose_img03.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 国立大学合格を目指す
+              <img src="/images/arrow_right.png" alt=""> 国立大学合格を目指す
             </div>
           </div>
 
           <div class="images-group">
-            <img class="select-image" src="images/select-purpose-img4.png" alt="留学先の生徒">
+            <div class="image-container">
+              <img class="select-image" src="/images/select_purpose_img04.jpg" alt="">
+            </div>
             <div class="left-text">
-              <img src="images/arrow-right.png" alt="→"> 海外の大学合格を目指す
+              <img src="/images/arrow_right.png" alt=""> 海外の大学合格を目指す
             </div>
           </div>
         </div>
@@ -186,7 +216,7 @@
     <div class="cta-button">
       <p class="cta-button__p">入学ご検討の方は、まずは入学説明会にお越しください</p>
       <div class="text-center">
-        <a href="/entry"><button class="cta-button__button">　入学説明会に申し込む</button></a>
+        <a href="/entry" class="cta-button__button">　入学説明会に申し込む</a>
       </div>
     </div>
 
@@ -229,7 +259,7 @@
     <div class="cta-button">
       <p class="cta-button__p">入学ご検討の方は、まずは入学説明会にお越しください</p>
       <div class="text-center">
-        <a href="/entry"><button class="cta-button__button">　入学説明会に申し込む</button></a>
+        <a href="/entry" class="cta-button__button">　入学説明会に申し込む</a>
       </div>
     </div>
   </article>
@@ -237,12 +267,18 @@
   <!-- フッター -->
   <footer class="text-center">
     <div class="footer__button">
-      <a href="/faq" class="footer__button--qa-pc">よくあるご質問</a>
-      <a href="/faq" class="footer__button--qa-sp">よくあるご質問</a>
-      <a href="search" class="footer__button--class-pc">お近くの教室を探す</a>
-      <a href="search" class="footer__button--class-sp">お近くの教室を探す</a>
+      <div class="footer__button--left">
+        <a href="/faq" class="footer__button--qa-pc">よくあるご質問</a>
+        <a href="/faq" class="footer__button--qa-sp">よくあるご質問</a>
+      </div>
+      <div class="footer__button--right">
+        <a href="/search" class="footer__button--class-pc">お近くの教室を探す</a>
+        <a href="/search" class="footer__button--class-sp">お近くの教室を探す</a>
+      </div>
     </div>
     <p class="footer__copyright">copyright&copy; 2023 Kira-Kira Juku All Rights Reserved.</p>
   </footer>
+
+  <script src="/script/script.js"></script>
 </body>
 </html>
